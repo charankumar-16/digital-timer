@@ -1,0 +1,116 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, white, #cffcf1);
+  background-size: cover;
+  padding: 10px;
+  min-height: 100vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.time-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .time-container {
+    flex-direction: row;
+  }
+}
+
+.time {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+
+  height: 350px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.time-description {
+  text-align: center;
+  background-position: center;
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.digital-time {
+  color: #00d9f5;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.digital-time-description {
+  margin-top: 0px;
+}
+.start-pause-reset-set-container {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-reset-container {
+  display: flex;
+}
+
+.start-pause-container {
+  display: flex;
+  margin-right: 30px;
+}
+
+.start-img {
+  height: 35px;
+  width: 35px;
+  margin: 10px;
+}
+
+.start {
+  font-size: 24px;
+  margin: auto;
+  border-width: 0px;
+  outline: none;
+  background-color: transparent;
+}
+
+.set-timer-container {
+}
+
+.set-time {
+  display: flex;
+}
+.set-min {
+  font-size: 28px;
+  margin: auto;
+  border-width: 0px;
+  outline: none;
+  background-color: transparent;
+}
+.min {
+  height: 40px;
+  width: 80px;
+  border-width: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 25px;
+  background-color: #00d9f5;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
